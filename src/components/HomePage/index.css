@@ -1,0 +1,82 @@
+.main-side{
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    background: #192033;
+    z-index: 9;
+    border-right: 1px solid rgba(0,0,0,0.05);
+}
+
+.offcanvas{
+    margin-left: 78px !important;
+    width: 200px !important;
+    background-color: #d0a043 !important;
+}
+
+#background-video{
+
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    padding: none;
+    position: fixed; /* optional depending on what you want to do in your app */
+    
+    
+    }
+
+ .hamburg-menu{
+    width: 20px;
+    color: #d0a043;
+    height: 20px;
+    justify-content: flex-start;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    cursor: pointer;
+    margin: 30px;
+ } 
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.social-media a{
+    width: 100%;
+    float: left;
+    color: #999;
+    font-size: 13px;
+    text-decoration: none;
+}
+.social-icons{
+    color: #fff;
+    font-size: 12px;
+}
+
+.search-container{
+    width: 100%;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 100%;
+    background-size: cover;
+}
